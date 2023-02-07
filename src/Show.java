@@ -7,13 +7,7 @@ import java.text.DecimalFormat;
 
 
 public class Show {
-    public String getDate() {
-        return date;
-    }
 
-    public void setDate(String date) {
-        this.date = date;
-    }
 
     private String date;
     private double price;
@@ -28,7 +22,7 @@ public class Show {
         this.quant=quant;
         this.performer=performer;
     }
-    public static ArrayList<Show> startShows() {
+  /**  public static ArrayList<Show> startShows() {
         ArrayList<Show> lines = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader("showData.txt"))) {
             String line;
@@ -51,9 +45,10 @@ public class Show {
         }
         return lines;
     }
-
+**/
     public static void main(String[] args) {
-        ArrayList <Show> lines = startShows();
+        TicketMasterDriver.typeSort();
+        ArrayList <Show> lines = TicketMaster.startShows();
         /*
         System.out.println(lines.getClass().getSimpleName());
         System.out.println(lines.size());
@@ -123,5 +118,12 @@ public class Show {
 
     public void setCity(String city) {
         this.city = city;
+    }
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

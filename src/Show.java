@@ -47,7 +47,7 @@ public class Show {
     }
 **/
     public static void main(String[] args) {
-        TicketMasterDriver.typeSort();
+        //TicketMasterDriver.typeSort();
         ArrayList <Show> lines = TicketMaster.startShows();
         /*
         System.out.println(lines.getClass().getSimpleName());
@@ -69,6 +69,7 @@ public class Show {
         for (Show i : lines){
             System.out.println(i.toString());
         }
+        System.out.println("\n");
     }
 
 

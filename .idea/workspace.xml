@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b127d78-ab55-4921-9ea7-03dfa5566110" name="Changes" comment="Show completed">
-      <change afterPath="$PROJECT_DIR$/src/TicketMasterDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicketMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicketMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicketMasterDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicketMasterDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +34,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/17084/OneDrive/Documents/GitHub/M359-AP-Java/TicketMaster"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/17084/OneDrive/Documents/GitHub/M359-AP-Java/TicketMaster&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Show">
+  <component name="RunManager" selected="Application.TicketMaster">
     <configuration name="Show" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Show" />
+      <module name="TicketMaster" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketMaster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicketMaster" />
       <module name="TicketMaster" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,8 +72,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Show" />
+        <item itemvalue="Application.TicketMaster" />
         <item itemvalue="Application.TicketMasterDriver" />
+        <item itemvalue="Application.Show" />
       </list>
     </recent_temporary>
   </component>

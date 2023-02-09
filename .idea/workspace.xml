@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b127d78-ab55-4921-9ea7-03dfa5566110" name="Changes" comment="Show completed">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8b127d78-ab55-4921-9ea7-03dfa5566110" name="Changes" comment="Project completed java doc comments left">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicketMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicketMaster.java" afterDir="false" />
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675660910539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project completed java doc comments left">
+      <created>1675837986148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675837986148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +128,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Show completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Show completed" />
+    <MESSAGE value="Project completed java doc comments left" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project completed java doc comments left" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

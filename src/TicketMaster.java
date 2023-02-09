@@ -7,6 +7,10 @@ import java.util.ArrayList;
 
 public class TicketMaster {
 
+    /**
+     *
+     * @return returns an Arraylist of Show objects after reading data from the text file using buffered-reader
+     */
     public static ArrayList<Show> startShows() {
         ArrayList<Show> lines = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader("showData.txt"))) {
@@ -33,6 +37,10 @@ public class TicketMaster {
         return lines;
     }
 
+    /**
+     *
+     * @param lines  The Arraylist of Show objects created using startShows that will be sorted according to the method of sorting or search selected.
+     */
     public  static void sortIt(ArrayList<Show> lines) {
         if (TicketMasterDriver.tickLow) {
             for (int i = 1; i < lines.size(); i++) {
